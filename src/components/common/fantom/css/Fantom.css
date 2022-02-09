@@ -1,0 +1,25 @@
+h1 {
+    margin-bottom: 0;
+}
+
+.fantom {
+    cursor: pointer;
+}
+
+.fantom-image {
+    max-width: 25px;
+}
+
+.fantom-image img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.fantom-label {
+    max-width: 300px;
+}
+
+.fantom .fantom-label p {
+    font-size: 12px;
+    margin-bottom: 0;
+}

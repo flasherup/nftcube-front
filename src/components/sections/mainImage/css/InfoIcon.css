@@ -1,0 +1,19 @@
+.info-icon {
+    width: 35px;
+    height: 35px;
+    z-index: 2;
+    border-radius: 15px;
+    padding: 5px !important;
+    text-transform: none !important;
+}
+
+.info-icon p{
+    font-size: 24px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -7px;
+}
+
+.info-icon-content p {
+    text-align: center;
+}

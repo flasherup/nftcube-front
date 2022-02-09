@@ -1,0 +1,36 @@
+.header {
+    margin-top: 15px;
+}
+
+.header-logo {
+    min-width: 290px;
+}
+
+.header-logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.header-menu {
+    max-width: 390px;
+}
+
+.header-logo,
+.header-menu,
+.header-buttons {
+    min-height: 50px;
+}
+
+.header-burger {
+    width: 16px;
+    height: 16px;
+    margin: 15px 0;
+}
+
+.header .fantom-button {
+    margin-right: 25px;
+}
+
+.header .fantom-button p {
+    margin-bottom: 0;
+}

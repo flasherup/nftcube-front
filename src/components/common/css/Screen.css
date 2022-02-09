@@ -1,0 +1,36 @@
+.screen {
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+}
+
+.screen-container {
+    width: 100vw;
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position:absolute;
+}
+
+.screen-container-no-scroll {
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    position:absolute;
+}
+
+.screen-overlay {
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.screen-parallax {
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+    overflow: hidden;
+    z-index: -20;
+}

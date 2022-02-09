@@ -1,0 +1,16 @@
+.img-tooltip {
+    position: absolute;
+    z-index: 22;
+    background-color: #000000;
+    border-radius: 5px;
+    border: solid #FFFFFF ;
+    padding: 10px;
+    transition: opacity 0.1s linear,opacity 0.4s linear;
+    text-align: left;
+}
+
+.img-tooltip p {
+    white-space: nowrap;
+    font-size: 14px;
+    margin-bottom: 5px;
+}

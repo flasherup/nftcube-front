@@ -1,0 +1,19 @@
+.grid {
+    z-index: 10;
+}
+
+.grid-image {
+    position: absolute;
+}
+
+.grid-svg {
+    position: absolute;
+    pointer-events: none;
+}
+
+@media (max-width: 991.98px) {
+    .grid-image {
+        width: 100vw;
+    }
+}
+

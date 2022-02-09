@@ -1,0 +1,27 @@
+.metamask {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.metamask-enable img {
+    filter: saturate(0);
+}
+
+.metamask-disable {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: black;
+}
+
+.metamask img {
+    width: 21px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.metamask p {
+    margin-bottom: 0;
+    user-select: none;
+}
+

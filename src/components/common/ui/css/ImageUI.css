@@ -1,0 +1,9 @@
+.image-ui-hidden {
+    opacity:0;
+}
+
+.image-ui img{
+    position:absolute;
+    opacity:1;
+    transition:opacity 0.5s linear;
+}

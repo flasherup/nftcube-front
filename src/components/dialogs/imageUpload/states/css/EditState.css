@@ -1,0 +1,51 @@
+.image-edit-state .bounceball {
+    top: -75px;
+    left: 48px;
+}
+
+.image-edit-state .form-label {
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+.image-edit-state-prev-btn {
+    max-width: 25px;
+    cursor: pointer;
+}
+
+.image-edit-state-next-btn {
+    max-width: 25px;
+    cursor: pointer;
+}
+
+.image-edit-state-image {
+    height: 111px;
+    width: 111px;
+    border-radius: 0;
+    padding: 0;
+    background-color: black;
+    cursor: pointer;
+}
+
+.image-edit-state-bottom {
+    height: 60px;
+}
+
+.image-edit-state-links {
+    font-size: 14px;
+}
+
+.image-edit-state-bottom .btn {
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .image-edit-state-bottom {
+        margin-top: 50px;
+    }
+
+    .image-edit-state-links {
+        margin-top: 50px;
+    }
+}
+

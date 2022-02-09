@@ -1,0 +1,54 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"internalType": "uint8",
+				"name": "numberToMint",
+				"type": "uint8"
+			}
+		],
+		"name": "mint",
+		"outputs": [
+			{
+				"internalType": "uint16[5]",
+				"name": "TokenIDs",
+				"type": "uint16[5]"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint16",
+				"name": "TokenID",
+				"type": "uint16"
+			},
+			{
+				"internalType": "string",
+				"name": "ImageURI",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "Title",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "URL",
+				"type": "string"
+			}
+		],
+		"name": "updateTokenAttributes",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

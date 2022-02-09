@@ -1,0 +1,19 @@
+.mobile-menu .btn {
+    border-radius: 25px;
+    background-color: black;
+    border: solid 2px #FFFFFF;
+    margin: 15px;
+}
+
+.mobile-menu-nav .nav-item .nav-link {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.mobile-menu-nav .nav-item .nav-link {
+    padding-left: 0;
+}
+
+.mobile-menu-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+.menu .nav-item .nav-link {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.menu .nav-item .nav-link {
+    padding-left: 0;
+}
+
+.menu .nav-item .nav-link:hover {
+    text-decoration: underline;
+}

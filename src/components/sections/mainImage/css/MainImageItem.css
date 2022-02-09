@@ -1,0 +1,25 @@
+.main-image-item p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.main-image-item img {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.main-image-item .fantom-button,
+.main-image-item .fantom-button:focus,
+.main-image-item .fantom-button:disabled{
+    border-radius: 0;
+    font-size: 14px;
+    background-color: black;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.main-image-item-btn {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}

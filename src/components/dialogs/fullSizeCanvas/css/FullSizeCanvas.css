@@ -1,0 +1,14 @@
+.full-size-canvas {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    overflow: scroll;
+    position: relative;
+}
+
+/*.full-size-canvas .grid-image {
+    z-index: auto;
+}
+
+.full-size-canvas .grid-svg {
+    z-index: auto;
+}*/

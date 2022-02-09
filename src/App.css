@@ -1,0 +1,133 @@
+.main-screen {
+  background-color: #000000;
+  z-index:0
+}
+
+.container-fluid {
+  max-width: 1400px;
+}
+
+body {
+  font-family: Audiowide;
+  word-spacing: 3px;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.popover-header,
+.popover-body {
+  font-family: Audiowide;
+  text-transform: uppercase;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-control,
+.form-control:focus{
+  background-color: black;
+  border-radius: 0;
+  color: white;
+  border-color: white !important;
+  box-shadow: none !important;
+}
+
+.fantom-button,
+.fantom-button:focus {
+  opacity: 1;
+  border-width: 2px;
+  border-color: white;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: none !important;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.fantom-button:disabled {
+  opacity: 1;
+  border-width: 2px;
+  border-color: #c7c7c7;
+  background-color: #505050;
+  cursor: pointer;
+  box-shadow: none !important;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #c7c7c7;
+}
+
+.fantom-button:hover,
+.fantom-button:active {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.fantom-button-secondary,
+.fantom-button-secondary:focus {
+  opacity: 1;
+  border-width: 2px;
+  border-color: #c2c2c2;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: none !important;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #c2c2c2;
+}
+
+.fantom-button-secondary:disabled {
+  opacity: 1;
+  border-width: 2px;
+  border-color: #898989;
+  background-color: #505050;
+  cursor: auto;
+  box-shadow: none !important;
+  padding: 10px 20px;
+  color: #898989;
+}
+
+.fantom-button-secondary:hover,
+.fantom-button-secondary:active {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+@media (max-width: 575.98px) {
+  .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .45);
+    padding-left: calc(var(--bs-gutter-x) * .45);
+  }
+}
+
+
+
+
